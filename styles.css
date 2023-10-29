@@ -1,0 +1,256 @@
+body {
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+
+.introduction {
+ background-image: url(images/bg-header-desktop.png);
+ background-repeat: no-repeat;
+ text-align: center;
+ padding: 100px 0;
+}
+
+.about h1 {
+    font-size: 42px;
+    margin: 20px 0;
+}
+
+.logo {
+    width: 100px;
+}
+
+.about p {
+    width: 50%;
+    margin: auto;
+    line-height: 1.5;
+    opacity: 0.7;
+    
+}
+
+.download {
+    border-radius: 25px;
+    margin: 20px 5px 100px;
+    height: 45px;
+    color: white;
+}
+
+.ios {
+    background-color: hsl(171, 66%, 44%);
+}
+
+.mac {
+    background-color: hsl(233, 100%, 69%);
+}
+
+
+.quick-search {
+    margin: 50px;
+}
+
+.computer-screen {
+    width: 100%;
+    padding-right: 50px;
+}
+
+.details {
+    padding-left: 50px;
+}
+
+
+.details h2{
+    font-size: 1.5rem;
+    margin: 15px 0;
+}
+
+.details p{
+    opacity: 0.7;
+    width: 100%;
+    line-height: 1.8;
+}
+
+
+.experience {
+    margin: 70px;
+    text-align: center;
+}
+
+.devices {
+    width: 60%;
+    margin: 50px;
+}
+
+.experience h2 {
+    font-size: 1.5rem;
+    margin: 15px 0;
+}
+
+.experience p{
+    opacity: 0.7;
+    width: 50%;
+    line-height: 1.8;
+    margin: auto;
+}
+
+.workflow {
+    margin: 50px;
+    text-align: center;
+}
+
+.benefit {
+    margin: 30px 0;
+    width: 10%;
+}
+
+.workflow h3 {
+    font-size: 1.4rem;
+    padding: 20px 0;
+}
+
+.workflow p{
+    opacity: 0.7;
+    line-height: 1.8;
+    margin: auto;
+}
+
+.sponsors {
+    text-align: center;
+    margin: auto;
+}
+
+.sponsors img {
+    padding: 10px;
+    margin: 30px;
+}
+
+.availability {
+    text-align: center;
+    padding: 50px;
+    width: 100%;
+}
+
+.availability p {
+    opacity: 0.7;
+    line-height: 1.8;
+    margin: auto;
+    width: 60%;
+    padding: 10px 10px 20px;
+}
+
+footer {
+    text-align: center;
+    opacity: 0.7;
+}
+
+.footer {
+    background-color: hsl(210, 4%, 89%);
+    padding: 20px 50px;
+    width: 100%;
+}
+
+.footer-link {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-logo {
+    width: 50px;
+    
+}
+
+.reach li {
+    list-style-type: none;
+    display: inline;
+    margin: 20px;
+    padding: 10px 90px;
+}
+
+.reach a {
+    text-decoration: none;
+}
+
+.reach a:hover {
+    color:black;
+}
+
+.social-images {
+    width: 25%;
+}
+
+.image {
+    margin-left: 15px;
+}
+
+
+
+
+@media (max-width: 920px) {
+    .about p {
+        width: 80%;
+    }
+
+    .download {
+        display: grid;
+        margin: 20px auto;
+        width: 60%;
+    }
+
+    .about h2 {
+        margin: 100px auto 20px auto;
+        width: 60%;
+    }
+
+    .computer-screen {
+        margin: 20px auto;
+        padding: 0;
+    }
+
+    .details h2 {
+        text-align: center;
+    }
+
+    .details p {
+        text-align: center;
+    }
+
+
+    .experience h2 {
+        width: 80%;
+        margin: 20px auto;
+    }
+
+    .experience p {
+        width: 100%;
+    }
+
+    .sponsors img {
+        display: block;
+        margin: 30px auto;
+    }
+
+    .availability h2 {
+        width: 70%;
+        margin: 20px auto;
+    }
+
+    .availability p {
+        width: 100%;
+    }
+
+    .footer-link {
+        display: block;
+        text-align: center;
+    }
+
+    .footer-logo {
+        margin: 20px auto;
+    }
+
+    a {
+        text-align: center;
+    }
+
+    .social-images {
+        display: flex;
+        margin: auto;
+    }
+}
